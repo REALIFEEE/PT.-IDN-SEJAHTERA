@@ -1,0 +1,46 @@
+.banner {
+    height: 100vh;
+    background-image: url('/Asset/IMG/IDN-Boarding-School-Solo-1024x582.\ png.jpeg');
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(38, 38, 38, 0.6);
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    z-index: 1;
+    padding: 20px 25px;
+}
+
+.banner button {
+    z-index: 1;
+    position: absolute;
+    bottom: 40px;
+}
+
+
+.row {
+    justify-content: center;
+}
+
+.caraousel-item {
+    width: 80%;
+}
+
+footer {
+    justify-content: center;
+    
+}
